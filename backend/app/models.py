@@ -11,6 +11,7 @@ class Users(db.Model):
 
     userid = db.Column(db.Integer, nullable=False, primary_key=True, autoincrement=True)
     username = db.Column(db.Text, nullable=False)
+    db.UniqueConstraint(username)
     
     def __repr__(self) -> str:
         return '<User %r>' % self.username
