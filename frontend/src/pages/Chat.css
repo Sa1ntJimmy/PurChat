@@ -1,0 +1,16 @@
+.NavBar {
+    background-color: aquamarine;
+    min-height: 57px;
+    display: block;
+}
+
+.Logo {
+    float: left;
+    margin-left: 20px;
+}
+
+.logoutbutton {
+    margin-top: 5px;
+    margin-right: 5px;
+    float: right;
+}
