@@ -1,7 +1,9 @@
 from flask import Flask
 import backend.db as db
+from flasgger import Swagger
 
 app = Flask(__name__)
+swagger = Swagger(app)
 
 app_db = db.init_db(app)
 
