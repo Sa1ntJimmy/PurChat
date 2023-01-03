@@ -1,0 +1,10 @@
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    box-shadow: 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
